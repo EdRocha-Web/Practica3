@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="es">
-
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, user-scalable=no, Initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <title>Bienes Raices</title> 
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
-        <title>Anuncio</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/misestilos.css">
     </head>
-
     <body>
-        <header>
-            <div>
-                <div>
+        <header class="site-header"> <!-- Etiqueta <HEADER> que me sirv para identificar le encabezado -->
+            <div class="contenedor contenido-header">
+                <div class="barra">
                     <a href="index.html">
-                        <img src="img/logo.svg" alt="Logo de bienes raices">
+                        <img src="img/logo.svg" alt="Logo de Bienes Raices">
                     </a>
-                    <nav>
+            
+                    <nav class="navegacion"> <!-- El elemento HTML <nav> representa una sección de una página cuyo propósito es proporcionar enlaces de navegación, 
+                        ya sea dentro del documento actual o a otros documentos. -->
                         <a href="nosotros.html">Nosotros</a>
                         <a href="anuncios.html">Anuncios</a>
                         <a href="blog.html">Blog</a>
@@ -24,40 +27,45 @@
                 </div>
             </div>
         </header>
+
         <main>
-            <h1>Casa en Venta en la Playa</h1>
-            <div>
-                <img src="img/destacada.jpg" alt="Casa con piscina">
+            <h1 class="fw-300 centrar-texto">Casa en Venta en la Playa</h1>
+            <img src="img/destacada.jpg" class="imagen-anuncio seccion">
+            <div class="contenedor-anuncio">
+                <div>
+                    <ul class="iconos-anuncio">
+                        <p class="precio">$3,000,000</p>
+                        <li></li>
+                        <li></li>       
+                        <li>
+                            <img src="img/icono_wc.svg" alt="Icono de WC">
+                            <p>3</p>
+                        </li>
+                        <li>
+                            <img src="img/icono_estacionamiento.svg" alt="Icono Estacionamiento">
+                            <p>2</p>
+                        </li>
+                        <li>
+                            <img src="img/icono_dormitorio.svg" alt="Icono Habitaciones">
+                            <p>5</p>
+                        </li>
+                    </ul>
+                </div>
+                <p>Etiam sagittis nibh at ex gravida commodo. Pellentesque quis iaculis ante, non vulputate dolor. Aenean egestas tempor diam sit amet tincidunt. Nunc rhoncus orci vel hendrerit varius. Morbi ut placerat arcu, laoreet condimentum dolor. Nunc sollicitudin lacus vel neque efficitur, sit amet pharetra velit porttitor. Nulla bibendum sed est eget ullamcorper. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc eros risus, blandit id nisi sit amet, feugiat pharetra eros. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis aliquam congue eleifend. Ut nunc mi, aliquet et tellus sit amet, dictum varius neque. Curabitur bibendum suscipit velit, et cursus leo euismod at. Morbi sagittis malesuada metus, id porttitor quam porttitor quis. Cras ultrices, turpis quis ullamcorper gravida, metus purus accumsan arcu, eget ultrices urna diam eget lacus.</p>
+                <p>Morbi quis dui laoreet, auctor est non, ornare diam. Quisque quis vehicula nisl. Aenean eu lectus eu ipsum scelerisque hendrerit. Sed nec posuere nunc. Aenean magna velit, dictum a libero in, malesuada ultrices ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi pellentesque ornare ligula. Quisque iaculis est eget justo lobortis, eget interdum tellus congue. Etiam sit amet erat ante.</p>
             </div>
-            <p>$3000,000</p>
-            <div>
-                <div><img src="img/icono_wc.svg" alt="wc">3</div>
-                <div><img src="img/icono_estacionamiento.svg" alt="estacionamiento">3</div>
-                <div><img src="img/icono_dormitorio.svg" alt="dormitorio">2</div>
+                    </main>
+
+        <footer class="site-footer section">
+            <div class="contenedor contenedor-footer">
+                <nav class="navegacion">
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="anuncios.html">Anuncios</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+                <p class="copyright">Todos los Derechos Reservados &copy;</p>
             </div>
-            <div>
-                <p>
-                    Suspendisse eu efficitur libero. Sed eleifend pulvinar eros nec semper. Aenean aliquet auctor magna, ultricies
-                    rhoncus tortor mattis sed. Nunc sed leo eu ante auctor. Proin eleifend pharetra hendrerit. Pellentesque sed mauris
-                    orci. Praesent quis faucibus leo, quis vestibulum nulla. Nullam scelerisque sapien id rutrum iaculis. Maecenas
-                    pulvinar hendreri 
-                </p>
-                <p>
-                    Praesent sed neque congue ligula aliquet convallis. Nam vitae pellentesque mauris. Fusce et massa blandit odio
-                    vestibulum egestas ac et enim. Proin vel velit lectus. Proin eleifend pharetra hendrerit. Pellentesque sed mauris
-                    orci. Praesent quis faucibus leo, quis vestibulum nulla. Nullam scelerisque sapien id rutrum iaculis. Maecenas
-                    pulvinar hendreri
-                </p>
-            </div>
-        </main>
-        <footer>
-            <nav">
-                <a href="nosotros.html">Nosotros</a>
-                <a href="anuncios.html">Anuncios</a>
-                <a href="blog.html">Blog</a>
-                <a href="contacto.html">Contacto</a>
-            </nav>
-            <p>Todos los derechos reservados &copy;</p>
-        </footer>
+        </footer> <!-- Aquí es donde se cierra el footer -->
     </body>
 </html>

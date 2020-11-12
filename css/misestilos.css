@@ -149,15 +149,20 @@ h4{
 .contenedor-anuncios{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap; /*Pasa el contenido al siguiente renglon*/
 }
 
 .anuncio{
-    flex-basis: calc(33.3% - 1rem);
+    flex:0 0 calc(33.3% - 1rem); /*Sustituye las 3 lineas comentarisadas*/
+    /*flex-grow: 0; Para que el contenido crezca si es posible
+    flex-shrink: 0; /*1) Sirve para que el contenido se encoja, si es posible, 0) Hace que no se comprima
+    flex-basis: calc(33.3% - 1rem);*/
     border: 1px solid #b5b5b5;
     background-color: #f5f5f5;
     /* border-color: #b5b5b5;
     border-width: 1px; */
     /* border-style: double; */
+    margin-bottom: 2rem;
 }
 
 .contenido-anuncio{
@@ -181,7 +186,7 @@ h4{
     list-style: none;
     padding: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly; /*Distribiye el espacio y deja al principio y al final*/
 }
 
 .iconos-caracteristicas li{
@@ -352,4 +357,37 @@ h4{
     font-size: 2rem;
     margin: 0;
     padding: 1rem 0 3rem 0;
+}
+
+/*Anuncio Hecho Por Mí*/
+.imagen-anuncio{
+    height: 80rem;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.contenedor-anuncio{
+max-width: 90rem; /*1200*/
+    margin: 0 auto; /* Centrar contenido */
+}
+
+.iconos-anuncio{
+list-style: none;
+padding: 0;
+display: flex;
+justify-content: space-between; /*Distribiye el espacio y deja al principio y al final*/
+}
+
+.iconos-anuncio li{
+    display: flex;
+}
+
+.iconos-anuncio li img{
+    margin-right: 2rem;
+}
+
+.iconos-anuncio p{
+    justify-content: left;
 }
