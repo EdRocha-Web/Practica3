@@ -2,19 +2,23 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, user-scalable=no,
-        Initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> 
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Entrada</title>
+        <meta name="viewport" content="width=device-width, user-scalable=no, Initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <title>Bienes Raices</title> 
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/misestilos.css">
     </head>
     <body>
-        <header>
-            <div>
-                <div>
+        <header class="site-header"> <!-- Etiqueta <HEADER> que me sirv para identificar le encabezado -->
+            <div class="contenedor contenido-header">
+                <div class="barra">
                     <a href="index.html">
-                        <img src="img/logo.svg" alt="Logo de bienes raices">
+                        <img src="img/logo.svg" alt="Logo de Bienes Raices">
                     </a>
-                    <nav>
+            
+                    <nav class="navegacion"> <!-- El elemento HTML <nav> representa una sección de una página cuyo propósito es proporcionar enlaces de navegación, 
+                        ya sea dentro del documento actual o a otros documentos. -->
                         <a href="nosotros.html">Nosotros</a>
                         <a href="anuncios.html">Anuncios</a>
                         <a href="blog.html">Blog</a>
@@ -24,25 +28,32 @@
             </div>
         </header>
 
-        <main>
-            <h1>Consejos para Tener una Alberca en tu casa sin gastar</h1>
-            <img src="img/destacada2.jpg" alt="imgDestacada2">
-            <div>
-                <p> Escrito el: <em>21/10/2020</em> por:<em> Admin</em></p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta error at laborum necessitatibus dolorum voluptates illo id in hic et, amet velit, nobis natus laboriosam animi ratione voluptatum, eos veritatis? Veritatis corrupti, quibusdam omnis, deserunt provident et praesentium officiis impedit perspiciatis quas expedita repellat, blanditiis sint voluptatum totam.</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo at vero saepe, accusantium officia animi nihil facilis dicta beatae aut. Id quis fugit excepturi repellat quia animi sed similique ducimus perferendis aliquid. Assumenda numquam recusandae odit cupiditate! Tempore, quos. Explicabo suscipit saepe at corporis id architecto, fugiat a totam laborum?</p>
-            </div>
+        <h1 class="fw-300 centrar-texto">Consejos para tener una alberca en tu casa sin gastar demasiado</h1>
+
+        <img src="img/destacada2.jpg" alt="Imagen alberca">
+
+        <main class="seccion centrar-contenido texto-entrada">
+            <p>Escrito el: <span>13/11/2020</span> por: <span>Admin</span></p>
+
+            <p>Praesent accumsan, arcu eu porttitor tincidunt, orci lorem tincidunt nibh, vel dapibus nisi libero nec ante. Morbi egestas arcu eget libero bibendum, at blandit ligula ultrices. Ut consectetur dolor et consectetur ullamcorper. Suspendisse potenti. Cras bibendum luctus arcu eget molestie. Phasellus magna odio, consectetur ac blandit eget, congue at mauris. Aenean vulputate urna sed turpis accumsan malesuada. Proin quis velit justo. Sed volutpat nisi et nisl elementum dapibus. Integer egestas placerat mi, in viverra urna posuere vel. Mauris commodo neque quis fermentum tempus. Fusce quis tincidunt ligula.</p>
+
+            <p>Donec molestie sed nisi non rutrum. Duis id leo consectetur, tincidunt felis vitae, ornare nibh. Praesent dapibus erat eget ante dictum tincidunt. Nullam interdum semper orci, rhoncus bibendum libero bibendum a. Duis erat lorem, dictum sit amet euismod nec, ullamcorper eu felis. Donec ornare at justo vel sagittis. Morbi laoreet commodo magna at dignissim. Nunc lacus urna, pharetra tempus erat quis, ultricies ornare eros. Pellentesque vehicula magna mattis elit molestie molestie et sed felis. Sed nunc augue, venenatis et mi sit amet, blandit posuere nisi. Mauris felis dui, efficitur eu laoreet at, dignissim sit amet diam. Praesent ut quam ac erat tempor condimentum quis at risus. Vivamus in erat dignissim leo interdum blandit. Nullam vel pulvinar justo. Integer venenatis scelerisque orci sed finibus. Aenean quis suscipit libero.</p>
+
+            <p>Duis id diam viverra augue efficitur fringilla in eget enim. Aliquam eleifend nec enim nec sagittis. Fusce arcu lorem, tincidunt eu ante in, scelerisque aliquet turpis. Etiam in nunc egestas, feugiat ipsum at, mollis libero. Donec pretium diam eget elementum tempus. Aenean fringilla scelerisque leo, quis vehicula purus molestie convallis. Proin ullamcorper consectetur commodo. Proin lacus tortor, rhoncus ac maximus sit amet, cursus id nisl.</p>
+
+            <p>Suspendisse sem dui, eleifend et enim sit amet, finibus vehicula quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat tristique cursus. Nam rutrum, felis id finibus hendrerit, risus elit fringilla ante, in faucibus urna lacus consequat ligula. Integer venenatis dictum mi convallis sagittis. Maecenas fringilla metus non nisi finibus, at semper sem dictum. Cras faucibus scelerisque justo, quis dictum purus. Sed nulla tellus, porttitor vitae mi eget, iaculis dictum nibh. Nullam id porttitor nunc, et interdum ex. Aliquam eu dolor vehicula, gravida diam sed, tincidunt massa.</p>
         </main>
-        <footer> 
-            <div>
-                <nav> 
+
+        <footer class="site-footer section">
+            <div class="contenedor contenedor-footer">
+                <nav class="navegacion">
                     <a href="nosotros.html">Nosotros</a>
                     <a href="anuncios.html">Anuncios</a>
                     <a href="blog.html">Blog</a>
                     <a href="contacto.html">Contacto</a>
-                </nav> 
-                <p>Todos los derechos reservados &copy;</p>
+                </nav>
+                <p class="copyright">Todos los Derechos Reservados &copy;</p>
             </div>
-        </footer>
+        </footer> <!-- Aquí es donde se cierra el footer -->
     </body>
 </html>

@@ -37,6 +37,10 @@ body{
     line-height: 2;
 }
 /*Utilidades*/
+.centrar-contenido{
+    max-width: 80rem; /*800px*/
+    margin: 0 auto;
+}
 .fw-300{
     font-weight: 300;
 }
@@ -360,16 +364,9 @@ h4{
 }
 
 /*Anuncio Hecho Por Mí*/
-.imagen-anuncio{
-    height: 80rem;
-    background-position: center center;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-}
 
 .contenedor-anuncio{
-max-width: 90rem; /*1200*/
+    max-width: 80rem; /*800*/
     margin: 0 auto; /* Centrar contenido */
 }
 
