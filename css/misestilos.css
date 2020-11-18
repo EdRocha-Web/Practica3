@@ -429,6 +429,7 @@ form p{
     font-size: 1.4rem;
 }
 
-.radiob{
-    align-items: flex-start;
+input[type="radio"]{
+    position: relative;
+    right: 37.7rem;
 }
