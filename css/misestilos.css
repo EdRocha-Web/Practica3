@@ -37,10 +37,6 @@ body{
     line-height: 2;
 }
 /*Utilidades*/
-.centrar-contenido{
-    max-width: 80rem; /*800px*/
-    margin: 0 auto;
-}
 .fw-300{
     font-weight: 300;
 }
@@ -62,9 +58,17 @@ img{
     margin-bottom: 2rem;
 }
 
+.section{
+    margin-top: 2rem;
+}
 .contenedor{
     max-width: 120rem; /*1200*/
     margin: 0 auto; /* Centrar contenido */
+}
+
+.centrar-contenido{
+    max-width: 80rem; /*800px*/
+    margin: 0 auto;
 }
 
 h1{
@@ -387,4 +391,44 @@ justify-content: space-between; /*Distribiye el espacio y deja al principio y al
 
 .iconos-anuncio p{
     justify-content: left;
+}
+
+/*CONTACTO*/
+
+label{
+    display: block;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/*input[type="text"],
+input[type="email"]{  Selector de atributo*/
+input:not([type="submit"]),textarea, select /*Selector de negación*/
+{
+    background-color: #e1e1e1;
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: .5rem;
+}
+
+textarea{
+    height: 20rem;
+    max-height: 20rem;
+    min-height: 20rem;
+    resize: none;
+}
+
+legend{
+    font-size: 2rem;
+    color: #333333;
+}
+
+form p{
+    font-size: 1.4rem;
+}
+
+.radiob{
+    align-items: flex-start;
 }
