@@ -420,6 +420,11 @@ textarea{
     resize: none;
 }
 
+input[type="radio"]{
+    width: auto;
+    margin: 0;
+}
+
 legend{
     font-size: 2rem;
     color: #333333;
@@ -427,9 +432,16 @@ legend{
 
 form p{
     font-size: 1.4rem;
+    color: #4f4f4f;
 }
 
-input[type="radio"]{
-    position: relative;
-    right: 37.7rem;
+form p{
+    font-size: 1.4;
+}
+
+.forma-contacto{
+    max-width: 30rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
